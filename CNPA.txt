@@ -1,0 +1,498 @@
+;input 	01 - s0
+;output 00 - s1
+
+Inicializacion:	
+		
+		CALL 	delay20ms
+; 3
+		LOAD 	S1, 43
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+		LOAD 	S1, 03
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+; 3
+		LOAD 	S1, 43
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+		LOAD	S1, 03
+		OUTPUT	S1, 00
+		CALL	delay20ms
+; 3
+		LOAD 	S1, 43
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+		LOAD 	S1, 03
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+; 2
+		LOAD 	S1, 42
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+		LOAD 	S1, 02
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+; 2
+		LOAD 	S1, 42
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+		LOAD 	S1, 02
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+; 8
+		LOAD 	S1, 48
+		OUTPUT 	S1,00
+		CALL 	delay20ms
+		LOAD 	S1, 08
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+; 0
+		LOAD 	S1, 40
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+		LOAD 	S1, 00
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+; 6
+		LOAD 	S1, 46
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+		LOAD 	S1, 06
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+; 0
+		LOAD 	S1, 40
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+		LOAD 	S1, 00
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+; E
+		LOAD 	S1, 4E
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+		LOAD 	S1, 0E
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+; 0
+		LOAD 	S1, 40
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+		LOAD 	S1, 00
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+; 1
+		LOAD 	S1, 41
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+		LOAD 	S1, 01
+		OUTPUT 	S1, 00
+		CALL 	delay20ms
+; POSICION 80
+
+		LOAD	S1, 48
+		OUTPUT	S1, 00
+		CALL	delay20ms
+		LOAD	S1, 08
+		OUTPUT	S1, 00
+		CALL	delay20ms
+
+		LOAD	S1, 40
+		OUTPUT	S1, 00
+		CALL	delay20ms
+		LOAD	S1, 00
+		OUTPUT	S1, 00
+		CALL	delay20ms
+
+;control		
+;c
+		load 	s1,54
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,14
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,53
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,13
+		output	s1,00	
+		call 	delay20ms
+;o			
+		load 	s1,56
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,16
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,5F
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,1F
+		output	s1,00	
+		call 	delay20ms
+;n
+		load 	s1,56
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,16
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,5E
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,1E
+		output	s1,00	
+		call 	delay20ms
+;t
+		load 	s1,57
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,17
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,54
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,14
+		output	s1,00	
+		call 	delay20ms
+
+;r
+		load 	s1,57
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,17
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,52
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,12
+		output	s1,00	
+		call 	delay20ms
+;o			
+		load 	s1,56
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,16
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,5F
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,1F
+		output	s1,00	
+		call 	delay20ms
+
+;l
+		load 	s1,56
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,16
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,5C
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,1C
+		output	s1,00	
+		call 	delay20ms
+
+;_
+		load 	s1,55
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,15
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,5F
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,1F
+		output	s1,00	
+		call 	delay20ms
+
+;I 
+		load 	s1,54
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,4
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,59
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,19
+		output	s1,00	
+		call 	delay20ms
+;I
+		load 	s1,54
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,4
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,59
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,19
+		output	s1,00	
+		call 	delay20ms
+
+;posiciono el curso en la siguiente linea, posicion: C0
+; POSICION C0
+
+		LOAD	S1, 4C
+		OUTPUT	S1, 00
+		CALL	delay20ms
+		LOAD	S1, 0C
+		OUTPUT	S1, 00
+		CALL	delay20ms
+
+		LOAD	S1, 40
+		OUTPUT	S1, 00
+		CALL	delay20ms
+		LOAD	S1, 00
+		OUTPUT	S1, 00
+		CALL	delay20ms
+
+
+;P				
+		load 	s1,55
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,15
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,50
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,10
+		output	s1,00	
+		call 	delay20ms
+
+;a				
+		load 	s1,56
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,16
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,51
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,11
+		output	s1,00	
+		call 	delay20ms
+
+;n
+		load 	s1,56
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,16
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,5E
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,1E
+		output	s1,00	
+		call 	delay20ms
+
+;e 
+		load 	s1,56
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,16
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,55
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,15
+		output	s1,00	
+		call 	delay20ms
+;l
+		load 	s1,56
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,16
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,5C
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,1C
+		output	s1,00	
+		call 	delay20ms
+
+;_
+		load 	s1,55
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,15
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,5F
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,1F
+		output	s1,00	
+		call 	delay20ms
+
+;S
+		load 	s1,55
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,15
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,53
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,13
+		output	s1,00	
+		call 	delay20ms
+
+;o			
+		load 	s1,56
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,16
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,5F
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,1F
+		output	s1,00	
+		call 	delay20ms
+
+;l
+		load 	s1,56
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,16
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,5C
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,1C
+		output	s1,00	
+		call 	delay20ms
+;a
+		load 	s1,56
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,16
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,51
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,11
+		output	s1,00	
+		call 	delay20ms
+;r
+		load 	s1,57
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,17
+		output	s1,00	
+		call 	delay20ms
+		
+		load 	s1,52
+		output 	s1,00		
+		call 	delay20ms
+		load 	s1,12
+		output	s1,00	
+		call 	delay20ms
+
+main:
+		input 	s0,01
+		and 	s0,03
+		compare s0,01
+		jump 	z,ser1		
+		input 	s0,01
+		and 	s0,03
+		compare s0,02
+		jump 	z,ser2		
+		input 	s0,01
+		and 	s0,03
+		compare s0,03
+		jump 	z,ser3
+		jump 	main			
+
+
+ser1:
+		LOAD 	s1,01
+		OUTPUT	s1,00
+		call 	delay20ms
+		jump    main
+
+ser2:
+		LOAD 	s1,02
+		OUTPUT	s1,00
+		call 	delay20ms
+		jump    main
+		
+
+ser3: 
+		LOAD 	s1,03
+		OUTPUT	s1,00
+		call 	delay20ms
+		jump    main 
+
+
+
+;------	-------	DELAYS --------	-------	
+CONSTANT Cdelay, 0B
+
+delay1us:	LOAD	S5,Cdelay
+wait:		SUB	S5, 01
+		JUMP	NZ, wait
+		RETURN
+
+delay100us:	LOAD	S6, 64
+wait1us:	CALL	delay1us
+		SUB 	S6, 01
+		JUMP 	NZ, wait1us
+		RETURN
+
+delay1ms:	LOAD	S7, 64
+wait100us:	CALL	delay100us
+		SUB	S7, 01
+		JUMP	NZ, wait100us
+		RETURN
+
+delay20ms:	LOAD	S8, 14
+wait1ms:	CALL	delay1ms
+		SUB	S8, 01
+		JUMP	NZ, wait1ms
+		RETURN
+
+
+
+
